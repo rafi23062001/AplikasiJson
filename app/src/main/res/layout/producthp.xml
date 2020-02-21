@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="5dp"
+    android:background="#fff"
+    android:id="@+id/ly_product">
+
+    <ImageView
+        android:id="@+id/img_hp"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meizu M5 Note"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_merchant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meizu Store"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Handphone"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+
+</LinearLayout>

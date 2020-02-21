@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Description">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/lv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"/>
+        <TextView
+            android:id="@+id/tv_name_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Martin Cooper"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meizu"
+            android:padding="5dp"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="smartphone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_desc_merchant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merchant"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_desc_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+        <TextView
+            android:id="@+id/tv_desc_produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meizu"/>
+        <TextView
+            android:id="@+id/tv_desc_slog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meizu M5"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_desc_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kategori"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_desc_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"/>
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16GB,MICROSD,up to 128GB"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2GB ROM 16"/>
+
+    </LinearLayout>
+</LinearLayout>
